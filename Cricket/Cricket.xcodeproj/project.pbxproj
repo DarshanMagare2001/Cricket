@@ -22,6 +22,11 @@
 		13A315952B8DE5B4002ECD46 /* SignInVCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A315942B8DE5B4002ECD46 /* SignInVCInteractor.swift */; };
 		13A315972B8DE5D1002ECD46 /* SignInVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A315962B8DE5D1002ECD46 /* SignInVCPresenter.swift */; };
 		13A315992B8DE5E0002ECD46 /* SignInVCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A315982B8DE5E0002ECD46 /* SignInVCRouter.swift */; };
+		13A3159B2B8DEB8B002ECD46 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A3159A2B8DEB8B002ECD46 /* SignUpVC.swift */; };
+		13A3159D2B8DEBA9002ECD46 /* SignUpVCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A3159C2B8DEBA9002ECD46 /* SignUpVCInteractor.swift */; };
+		13A3159F2B8DEBB3002ECD46 /* SignUpVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A3159E2B8DEBB3002ECD46 /* SignUpVCPresenter.swift */; };
+		13A315A12B8DEBBE002ECD46 /* SignUpVCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A315A02B8DEBBE002ECD46 /* SignUpVCRouter.swift */; };
+		13A315A32B8DEBC9002ECD46 /* SignUpVCBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A315A22B8DEBC9002ECD46 /* SignUpVCBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,11 @@
 		13A315942B8DE5B4002ECD46 /* SignInVCInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVCInteractor.swift; sourceTree = "<group>"; };
 		13A315962B8DE5D1002ECD46 /* SignInVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVCPresenter.swift; sourceTree = "<group>"; };
 		13A315982B8DE5E0002ECD46 /* SignInVCRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVCRouter.swift; sourceTree = "<group>"; };
+		13A3159A2B8DEB8B002ECD46 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		13A3159C2B8DEBA9002ECD46 /* SignUpVCInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVCInteractor.swift; sourceTree = "<group>"; };
+		13A3159E2B8DEBB3002ECD46 /* SignUpVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVCPresenter.swift; sourceTree = "<group>"; };
+		13A315A02B8DEBBE002ECD46 /* SignUpVCRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVCRouter.swift; sourceTree = "<group>"; };
+		13A315A22B8DEBC9002ECD46 /* SignUpVCBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVCBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +166,11 @@
 		13A3158D2B8DE33D002ECD46 /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
+				13A3159A2B8DEB8B002ECD46 /* SignUpVC.swift */,
+				13A3159C2B8DEBA9002ECD46 /* SignUpVCInteractor.swift */,
+				13A3159E2B8DEBB3002ECD46 /* SignUpVCPresenter.swift */,
+				13A315A02B8DEBBE002ECD46 /* SignUpVCRouter.swift */,
+				13A315A22B8DEBC9002ECD46 /* SignUpVCBuilder.swift */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -241,13 +256,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				13A315972B8DE5D1002ECD46 /* SignInVCPresenter.swift in Sources */,
+				13A3159B2B8DEB8B002ECD46 /* SignUpVC.swift in Sources */,
 				13A315992B8DE5E0002ECD46 /* SignInVCRouter.swift in Sources */,
 				13A3157B2B8DDDDD002ECD46 /* AppDelegate.swift in Sources */,
+				13A3159F2B8DEBB3002ECD46 /* SignUpVCPresenter.swift in Sources */,
 				13A3156E2B8DDBD1002ECD46 /* ContentView.swift in Sources */,
+				13A315A32B8DEBC9002ECD46 /* SignUpVCBuilder.swift in Sources */,
 				13A3158F2B8DE372002ECD46 /* SignInVC.swift in Sources */,
 				13A315952B8DE5B4002ECD46 /* SignInVCInteractor.swift in Sources */,
+				13A3159D2B8DEBA9002ECD46 /* SignUpVCInteractor.swift in Sources */,
 				13A315932B8DE3CE002ECD46 /* SignInVCBuilder.swift in Sources */,
 				13A3156C2B8DDBD1002ECD46 /* CricketApp.swift in Sources */,
+				13A315A12B8DEBBE002ECD46 /* SignUpVCRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
