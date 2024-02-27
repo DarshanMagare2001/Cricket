@@ -12,7 +12,7 @@ struct CricketApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
         WindowGroup {
-            SignUpVCBuilder.build()
+            SignInVCBuilder.build()
         }
     }
 }

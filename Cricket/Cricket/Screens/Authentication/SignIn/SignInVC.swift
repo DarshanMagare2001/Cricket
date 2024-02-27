@@ -10,7 +10,17 @@ import SwiftUI
 struct SignInVC: View {
     @StateObject var presenter : SignInVCPresenter
     var body: some View {
-        Text("SignInVC")
+        VStack{
+            Spacer()
+            CommonTextFld(TextFieldText: $presenter.emailAddress, TextFieldPlaceHolder: "Email")
+            Spacer()
+            CommonSecureTextFld(TextFieldText: $presenter.emailAddress, TextFieldPlaceHolder: "Password" )
+            Spacer()
+            CommonBtn1(btnBackgroundColor: .appColorGreen, btnForegroundColor: .white, btnText: "Continue", btnAction:{
+                
+            })
+            Spacer()
+        }.padding(.horizontal,20)
     }
 }
 

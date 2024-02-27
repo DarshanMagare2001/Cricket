@@ -14,6 +14,7 @@ class SignInVCPresenter : ObservableObject {
         self.interactor = interactor
         self.router = router
     }
+    @Published var emailAddress = ""
 }
 
 extension SignInVCPresenter {

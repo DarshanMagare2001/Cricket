@@ -27,6 +27,10 @@
 		13A3159F2B8DEBB3002ECD46 /* SignUpVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A3159E2B8DEBB3002ECD46 /* SignUpVCPresenter.swift */; };
 		13A315A12B8DEBBE002ECD46 /* SignUpVCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A315A02B8DEBBE002ECD46 /* SignUpVCRouter.swift */; };
 		13A315A32B8DEBC9002ECD46 /* SignUpVCBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A315A22B8DEBC9002ECD46 /* SignUpVCBuilder.swift */; };
+		13A315A52B8DF004002ECD46 /* CommonBtn1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A315A42B8DF004002ECD46 /* CommonBtn1.swift */; };
+		13A315A82B8DF178002ECD46 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A315A72B8DF178002ECD46 /* UIColor+Extensions.swift */; };
+		13A315AC2B8DF74A002ECD46 /* CommonTextFld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A315AB2B8DF74A002ECD46 /* CommonTextFld.swift */; };
+		13A315AE2B8DFD75002ECD46 /* CommonSecureTextFld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A315AD2B8DFD75002ECD46 /* CommonSecureTextFld.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +51,10 @@
 		13A3159E2B8DEBB3002ECD46 /* SignUpVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVCPresenter.swift; sourceTree = "<group>"; };
 		13A315A02B8DEBBE002ECD46 /* SignUpVCRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVCRouter.swift; sourceTree = "<group>"; };
 		13A315A22B8DEBC9002ECD46 /* SignUpVCBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVCBuilder.swift; sourceTree = "<group>"; };
+		13A315A42B8DF004002ECD46 /* CommonBtn1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonBtn1.swift; sourceTree = "<group>"; };
+		13A315A72B8DF178002ECD46 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		13A315AB2B8DF74A002ECD46 /* CommonTextFld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTextFld.swift; sourceTree = "<group>"; };
+		13A315AD2B8DFD75002ECD46 /* CommonSecureTextFld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonSecureTextFld.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				13A315792B8DDCD9002ECD46 /* AppDelegate */,
+				13A315A62B8DF157002ECD46 /* Extensions */,
 				13A315872B8DE294002ECD46 /* Screens */,
 				13A315882B8DE2B3002ECD46 /* Resources */,
 				13A3157C2B8DDE83002ECD46 /* GoogleService-Info.plist */,
@@ -147,6 +156,8 @@
 		13A3158B2B8DE2EB002ECD46 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				13A315AA2B8DF722002ECD46 /* CommonTextFlds */,
+				13A315A92B8DF70B002ECD46 /* CommonButtons */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -173,6 +184,31 @@
 				13A315A22B8DEBC9002ECD46 /* SignUpVCBuilder.swift */,
 			);
 			path = SignUp;
+			sourceTree = "<group>";
+		};
+		13A315A62B8DF157002ECD46 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				13A315A72B8DF178002ECD46 /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		13A315A92B8DF70B002ECD46 /* CommonButtons */ = {
+			isa = PBXGroup;
+			children = (
+				13A315A42B8DF004002ECD46 /* CommonBtn1.swift */,
+			);
+			path = CommonButtons;
+			sourceTree = "<group>";
+		};
+		13A315AA2B8DF722002ECD46 /* CommonTextFlds */ = {
+			isa = PBXGroup;
+			children = (
+				13A315AB2B8DF74A002ECD46 /* CommonTextFld.swift */,
+				13A315AD2B8DFD75002ECD46 /* CommonSecureTextFld.swift */,
+			);
+			path = CommonTextFlds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +292,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				13A315972B8DE5D1002ECD46 /* SignInVCPresenter.swift in Sources */,
+				13A315A82B8DF178002ECD46 /* UIColor+Extensions.swift in Sources */,
+				13A315AC2B8DF74A002ECD46 /* CommonTextFld.swift in Sources */,
 				13A3159B2B8DEB8B002ECD46 /* SignUpVC.swift in Sources */,
 				13A315992B8DE5E0002ECD46 /* SignInVCRouter.swift in Sources */,
 				13A3157B2B8DDDDD002ECD46 /* AppDelegate.swift in Sources */,
@@ -265,9 +303,11 @@
 				13A3158F2B8DE372002ECD46 /* SignInVC.swift in Sources */,
 				13A315952B8DE5B4002ECD46 /* SignInVCInteractor.swift in Sources */,
 				13A3159D2B8DEBA9002ECD46 /* SignUpVCInteractor.swift in Sources */,
+				13A315AE2B8DFD75002ECD46 /* CommonSecureTextFld.swift in Sources */,
 				13A315932B8DE3CE002ECD46 /* SignInVCBuilder.swift in Sources */,
 				13A3156C2B8DDBD1002ECD46 /* CricketApp.swift in Sources */,
 				13A315A12B8DEBBE002ECD46 /* SignUpVCRouter.swift in Sources */,
+				13A315A52B8DF004002ECD46 /* CommonBtn1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
