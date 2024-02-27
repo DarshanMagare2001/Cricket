@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyDFjeSjFx3DvfDrYQ3nV2-lFi7kZEJjLUA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>420660039349</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Cricket</string>
+	<key>PROJECT_ID</key>
+	<string>cricket-bcb06</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cricket-bcb06.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:420660039349:ios:3d1500cbd4de94df6b38fc</string>
+</dict>
+</plist>
