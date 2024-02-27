@@ -8,18 +8,18 @@
 import SwiftUI
 
 struct CommonSecureTextFld: View {
-    @Binding var TextFieldText: String
-    var TextFieldPlaceHolder: String
+    @Binding var textFieldText: String
+    var textFieldPlaceHolder: String
     @State private var isTextShow = false
     var body: some View {
         HStack {
             ZStack {
                 if isTextShow {
-                    TextField(TextFieldPlaceHolder, text: $TextFieldText)
+                    TextField(textFieldPlaceHolder, text: $textFieldText)
                         .padding(.vertical, 20)
                         .padding(.horizontal, 10)
                 } else {
-                    SecureField(TextFieldPlaceHolder, text: $TextFieldText)
+                    SecureField(textFieldPlaceHolder, text: $textFieldText)
                         .padding(.vertical, 20)
                         .padding(.horizontal, 10)
                 }

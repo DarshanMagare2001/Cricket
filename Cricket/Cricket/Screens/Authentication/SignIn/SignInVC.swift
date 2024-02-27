@@ -12,9 +12,9 @@ struct SignInVC: View {
     var body: some View {
         VStack{
             Spacer()
-            CommonTextFld(TextFieldText: $presenter.emailAddress, TextFieldPlaceHolder: "Email")
+            CommonTextFld(textFieldText: $presenter.emailAddress, textFieldPlaceHolder: "Email")
             Spacer()
-            CommonSecureTextFld(TextFieldText: $presenter.emailAddress, TextFieldPlaceHolder: "Password" )
+            CommonSecureTextFld(textFieldText: $presenter.emailAddress, textFieldPlaceHolder: "Password" )
             Spacer()
             CommonBtn1(btnBackgroundColor: .appColorGreen, btnForegroundColor: .white, btnText: "Continue", btnAction:{
                 

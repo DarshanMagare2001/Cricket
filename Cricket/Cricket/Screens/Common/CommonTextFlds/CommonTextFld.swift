@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct CommonTextFld: View {
-    @Binding var TextFieldText : String
-    var TextFieldPlaceHolder : String
+    @Binding var textFieldText : String
+    var textFieldPlaceHolder : String
     var body: some View {
         HStack {
-            TextField(TextFieldPlaceHolder, text: $TextFieldText)
+            TextField(textFieldPlaceHolder, text: $textFieldText)
                 .padding(.vertical, 20)
                 .padding(.horizontal, 10)
         }.frame(height: 60)
