@@ -19,7 +19,7 @@ struct SignInVC: View {
                     isShake = true
                 }
             Spacer()
-            CommonSecureTextFld(textFieldText: $presenter.emailAddress, textFieldPlaceHolder: "Password", textFldBorderColor: $txtFldBorderColor )
+            CommonSecureTextFld(textFieldText: $presenter.emailAddress, textFieldPlaceHolder: "Password", textFldBorderColor: $txtFldBorderColor, isTextFldShake: $isShake )
             Spacer()
             CommonBtn1(btnBackgroundColor: .appColorGreen, btnForegroundColor: .white, btnText: "Continue", btnAction:{
                 
