@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 class SignInVCPresenter : ObservableObject {
     var interactor : SignInVCInteractor?
@@ -14,7 +15,16 @@ class SignInVCPresenter : ObservableObject {
         self.interactor = interactor
         self.router = router
     }
-    @Published var emailAddress = ""
+    @Published var emailAddressTextFldText = ""
+    var emailAddressTextFldPlaceholder = "Email"
+    @Published var emailAddressTextFldBorderColor = Color(UIColor.systemGray4)
+    @Published var emailAddressTextFldIsShake = false
+    
+    @Published var passwordTextFldText = ""
+    var passwordTextFldPlaceholder = "Password"
+    @Published var passwordTextFldBorderColor = Color(UIColor.systemGray4)
+    @Published var passwordTextFldIsShake = false
+    
 }
 
 extension SignInVCPresenter {
