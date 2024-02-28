@@ -9,12 +9,17 @@ import SwiftUI
 
 struct SignInVC: View {
     @StateObject var presenter : SignInVCPresenter
+    @State private var txtFldBorderColor = Color.red
+    @State private var isShake = false
     var body: some View {
         VStack{
             Spacer()
-            CommonTextFld(textFieldText: $presenter.emailAddress, textFieldPlaceHolder: "Email")
+            CommonTextFld(textFieldText: $presenter.emailAddress, textFieldPlaceHolder: "Email", textFldBorderColor: $txtFldBorderColor, isTextFldShake: $isShake)
+                .onTapGesture {
+                    isShake = true
+                }
             Spacer()
-            CommonSecureTextFld(textFieldText: $presenter.emailAddress, textFieldPlaceHolder: "Password" )
+            CommonSecureTextFld(textFieldText: $presenter.emailAddress, textFieldPlaceHolder: "Password", textFldBorderColor: $txtFldBorderColor )
             Spacer()
             CommonBtn1(btnBackgroundColor: .appColorGreen, btnForegroundColor: .white, btnText: "Continue", btnAction:{
                 

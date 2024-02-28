@@ -11,6 +11,7 @@ struct CommonSecureTextFld: View {
     @Binding var textFieldText: String
     var textFieldPlaceHolder: String
     @State private var isTextShow = false
+    @Binding var textFldBorderColor : Color
     var body: some View {
         HStack {
             ZStack {
@@ -42,7 +43,7 @@ struct CommonSecureTextFld: View {
             .background(Color.white)
             .overlay(
                 RoundedRectangle(cornerRadius: 10)
-                    .stroke(Color(UIColor.systemGray4), lineWidth: 1)
+                    .stroke(textFldBorderColor, lineWidth: 1)
             )
             .contentShape(Rectangle())
     }

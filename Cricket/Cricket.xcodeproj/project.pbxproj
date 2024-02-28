@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		136D9CA42B8F1515009D98F4 /* ShakeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136D9CA32B8F1515009D98F4 /* ShakeAnimation.swift */; };
 		13A3156C2B8DDBD1002ECD46 /* CricketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A3156B2B8DDBD1002ECD46 /* CricketApp.swift */; };
 		13A3156E2B8DDBD1002ECD46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A3156D2B8DDBD1002ECD46 /* ContentView.swift */; };
 		13A315702B8DDBD2002ECD46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A3156F2B8DDBD2002ECD46 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		136D9CA32B8F1515009D98F4 /* ShakeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeAnimation.swift; sourceTree = "<group>"; };
 		13A315682B8DDBD1002ECD46 /* Cricket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cricket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A3156B2B8DDBD1002ECD46 /* CricketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricketApp.swift; sourceTree = "<group>"; };
 		13A3156D2B8DDBD1002ECD46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		136D9CA22B8F1502009D98F4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				136D9CA32B8F1515009D98F4 /* ShakeAnimation.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		13A3155F2B8DDBD1002ECD46 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +101,7 @@
 		13A3156A2B8DDBD1002ECD46 /* Cricket */ = {
 			isa = PBXGroup;
 			children = (
+				136D9CA22B8F1502009D98F4 /* Utilities */,
 				13A315792B8DDCD9002ECD46 /* AppDelegate */,
 				13A315A62B8DF157002ECD46 /* Extensions */,
 				13A315872B8DE294002ECD46 /* Screens */,
@@ -296,6 +307,7 @@
 				13A315AC2B8DF74A002ECD46 /* CommonTextFld.swift in Sources */,
 				13A3159B2B8DEB8B002ECD46 /* SignUpVC.swift in Sources */,
 				13A315992B8DE5E0002ECD46 /* SignInVCRouter.swift in Sources */,
+				136D9CA42B8F1515009D98F4 /* ShakeAnimation.swift in Sources */,
 				13A3157B2B8DDDDD002ECD46 /* AppDelegate.swift in Sources */,
 				13A3159F2B8DEBB3002ECD46 /* SignUpVCPresenter.swift in Sources */,
 				13A3156E2B8DDBD1002ECD46 /* ContentView.swift in Sources */,
